@@ -5,6 +5,11 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+console.log(process.env.GATSBY_FOLDER_ID)
+console.log(process.env.GATSBY_SANITY_DATASET)
+console.log(process.env.GATSBY_SANITY_PROJECT_ID)
+console.log(JSON.parse(process.env.GATSBY_CREDENTIALS))
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
